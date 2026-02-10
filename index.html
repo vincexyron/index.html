@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #111;
+  color: #fff;
+}
+
+nav {
+  background-color: #000;
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+header {
+  background-color: #220000;
+  text-align: center;
+  padding: 80px 20px;
+  color: #ff4d4d;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0 0 20px;
+}
+
+header p {
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #222;
+  padding: 20px;
+  text-decoration: none;
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: #440000;
+  color: #fff;
+}
+
+.card img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 30px 20px;
+  color: #ff4d4d;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="page1.html">Biography</a>
+  <a href="page2.html">Technology Related</a>
+  <a href="page3.html">Personal Blog</a>
+  <a href="page4.html">Career and Future</a>
+  <a href="page5.html">Photo Dump</a>
+</nav>
+
+<header>
+  <h1>Hello, I am Vince Xyron A Mallari</h1>
+  <p>A 2nd year IT Student from the University of the East</p>
+</header>
+
+<div class="nav-section">
+  <a href="page1.html" class="card">Biography<img src="bio.jpg">
+  <a href="page2.html" class="card">Technology Related<img src="blog1.jpg">
+  <a href="page3.html" class="card">Personal Blog<img src="blog2.jpg">
+  <a href="page4.html" class="card">Career and Future<img src="blog3.jpg">
+  <a href="page5.html" class="card">Photo Dump<img src="photo.jpg">
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>

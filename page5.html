@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Dump</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #111;
+  color: #fff;
+}
+
+nav {
+  background-color: #000;
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+header {
+  background-color: #220000;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+header h1 {
+  font-size: 55px;
+  color: #ff4d4d;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 22px;
+  color: #fff;
+}
+
+.photo-dump {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.photo-section {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.photo-section h2 {
+  color: #ff4d4d;
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #440000;
+  padding-bottom: 10px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 25px;
+  color: #ff4d4d;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="page1.html">Biography</a>
+  <a href="page2.html">Technology Related</a>
+  <a href="page3.html">Personal Blog</a>
+  <a href="page4.html">Career and Future</a>
+  <a href="photodump.html">Photo Dump</a>
+</nav>
+
+<header>
+  <h1>Photo Dump</h1>
+</header>
+
+<div class="photo-dump">
+
+  <div class="photo-section">
+    <h2>Biography Photos</h2>
+    <div class="photo-grid">
+      <img src="life1.jpg">
+      <img src="life2.jpg">
+      <img src="life3.jpg">
+    </div>
+  </div>
+
+  <div class="photo-section">
+    <h2>Technology Related Photos</h2>
+    <div class="photo-grid">
+      <img src="tech1.jpg">
+      <img src="tech2.jpg">
+      <img src="tech3.jpg">
+    </div>
+  </div>
+
+  <div class="photo-section">
+    <h2>Personal Blog Photos</h2>
+    <div class="photo-grid">
+      <img src="interest1.jpg">
+      <img src="interest2.jpg">
+      <img src="interest3.jpg">
+    </div>
+  </div>
+
+  <div class="photo-section">
+    <h2>Career and Future Photos</h2>
+    <div class="photo-grid">
+      <img src="future1.jpg">
+      <img src="future2.jpg">
+      <img src="future3.jpg">
+    </div>
+  </div>
+
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>
